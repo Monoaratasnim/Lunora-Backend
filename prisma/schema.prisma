@@ -24,6 +24,7 @@ enum CategoryStatus {
   INACTIVE
 }
 
+
 enum ProductStatus {
   DRAFT
   ACTIVE
