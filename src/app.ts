@@ -19,6 +19,10 @@ app.use(
 );
 app.use(express.json());
 
+app.get("/", (_req, res) => {
+  sendSuccess(res, "Lunora API is running");
+});
+
 app.get("/health", (_req, res) => {
   sendSuccess(res, "Server is healthy");
 });
